@@ -9,7 +9,6 @@ body {
   height: 688px;
   margin: 0;
   padding: 0;
-  padding-top: 30px;
   width: 100%;
 }
 .menu {
@@ -90,11 +89,13 @@ img[alt="aaa"] {
   width: 510px;
   float: left;
   margin-top: 114px;
+  
 }
 .pirb {
   width: 611px;
   float: right;
   margin-top: 114px;
+
 }
 .pira > h1 {
   font-size: 42px;
@@ -133,6 +134,9 @@ img[alt="aaa"] {
   max-width: 225px;
   display: inline-block;
   margin-right: 50px;
+      padding-left: 15px;
+
+  
 }
 .a > h2 {
   font-size: 28px;
@@ -146,8 +150,9 @@ img[alt="aaa"] {
 .content>h1{
   font-size: 42px;
   font-weight: 700;
-  margin-top: 106px;
+ margin-top: 106px;
 }
+
 .content>h5{
   margin-top: 40px;
   font-size: 16px;
@@ -170,7 +175,7 @@ height: 458px;
   
  
 }
-.tor>h1{
+.tor>h1 {
   font-size: 30px;
 font-weight: 500;
 }
@@ -179,14 +184,28 @@ font-weight: 500;
   font-size: 16px;
 font-weight: 400;
 }
-.tor>img{
-  width: 197px;
-height: 264px;
+.yy{
+  width: 190px;
+height: 200px;
   background-color: #ccc;
   display: inline-block;
- margin-top: 56px;
-  margin-right: 13px;
+ margin-top: 31px;
+  margin-right: 20px;
+  
+  
 }
+.ya{
+  
+}
+.pop{
+  width: 190px;
+height: 200px;
+  background-color: #ccc;
+  display: inline-block;
+ margin-top: 31px;
+  margin-right: 20px;
+}
+
 .footer{
   height: 76px;
 background-color: #313030;
@@ -202,8 +221,58 @@ font-weight: 400;
   display: inline-block;
   float: right;
 }
+ h1{
+   font-size: 5px;
+  }
+.team{
+  width: 99%;
+height: 3px;
+background-color: green; 
+  border:none;
+  float:left;
+  
+}
+.e{
+  display: none;
+}
+h1.e{
+  font-size: 30px;
+font-weight: 500;
+}
+.piz{
+    
+    margin-top: 350px;
+
+  }
+img{
+  display: inline-block;
+}
+
 @media(max-width: 800px){
- 
+  
+  .zm{
+    zoom: 1.2;
+  }
+  img[alt="q"]{
+    zoom:1.418;
+  }
+  .volonters{
+    display: none;
+  }
+  .teamlider{
+    margin-left: 15px;
+    
+  }
+  
+  .qq{
+  margin-right: 0px;
+}
+  .e{
+    display: block;
+  }
+  .w{
+    display: none;
+  }
   .con{
     width:600px;
   }
@@ -226,7 +295,6 @@ font-weight: 400;
  
   .pirb{
     margin-top: 40px;
-    padding-left: 3000px;
   }
   .piz{
     
@@ -237,4 +305,36 @@ font-weight: 400;
   .tor{
     margin-left: 0;
   }
+  img[alt="lvovich"]{
+    margin-top: 10px;
+  }
+  h1.e{
+    margin-top: 50px;
+  }
+  .no{
+    display: none;
+  }
+  .pirb{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 500px){
+  body{
+    zoom: 0.5;
+  }
+  h1{
+   zoom:1.2;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .what{
+    margin: 0;
+  }
+  .menu{
+    
+  }
+  
+  
+  
 }
