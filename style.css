@@ -4,14 +4,6 @@ body {
   margin: 0;
   font-family: "Open Sans";
 }
-.first {
-    font-size: 16px;
-    font-weight: 100;
-    display: inline-block;
-    width: 515px;
-    margin-top: 36px;
-    float: left;
-}
 .header {
   background-color: #f6f2f2;
   height: 688px;
@@ -404,6 +396,7 @@ img{
   }
   .footer>.con>h3{
     text-align: center;
+    margin-left: -120px;
   }
   
   
