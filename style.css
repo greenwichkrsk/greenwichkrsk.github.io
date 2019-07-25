@@ -37,7 +37,7 @@ body {
   display: inline-block;
   margin: 0;
   padding: 0;
-  margin-left: 308px;
+  margin-left: 378px;
   height: 100%;
 }
 .menu > ul > li {
@@ -341,9 +341,7 @@ font-weight: 400;
   .menu>ul>li{
     width: 146px;
   }
-  .menu>ul{
-    margin-left: 0px;
-  }
+ 
   .pir{
       border-bottom: none;
 
@@ -425,7 +423,7 @@ font-weight: 400;
     width: 146px;
   }
   .menu>ul{
-    margin-left: 0px;
+    margin-left: 60px;
   }
   .pir{
       border-bottom: none;
