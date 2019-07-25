@@ -9,13 +9,13 @@ body {
   height: 688px;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width:100%;
   padding-top: 20px;
 }
 .menu {
   background-color: black;
   height: 90px;
-  
+
   opacity: 0.8;
   
 }
@@ -47,7 +47,6 @@ body {
   padding-top: 35px;
   transition: 0.3s;
 }
-
 .menu > ul > li:hover {
   background-color: green;
 }
@@ -79,9 +78,7 @@ img[alt="aaa"] {
   float: right;
   margin-top: 108px;
   border-radius: 30px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 1);
-
-  
+  box-shadow: 0 0 40px rgba(0, 0, 0, 1);
 }
 .content {
   margin: 0 auto;
@@ -132,7 +129,7 @@ img[alt="aaa"] {
   height: 692px;
 }
 .a {
-  height: 225px;
+  max-height: 225px;
   max-width: 225px;
   display: inline-block;
   margin-right: 50px;
@@ -213,6 +210,7 @@ height: 200px;
 background-color: #313030;
   margin-top: 110px;
   padding-top: 35px;
+  
 }
 .con>h3{
   color: #b8b8b8;
@@ -249,34 +247,65 @@ font-weight: 500;
 img{
   display: inline-block;
 }
-.first{
-  font-size: 16px;
-  font-weight: 100;
-  display: inline-block;
-  width: 515px;
-  margin-top: 36px; float:left;
+.contact{
+  margin-top: 100px;
+  height: 400px;
 }
+.block{
+
+  background-color: #313030;
+ height: 400px;
+  width:700px;
+  display: inline-block;
+  
+  
+}
+.contact>img{
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+  background-color: #ccc;
+  margin-right: 130px;
+  float: left;
+}
+.block>h1{
+  color: white;
+  font-size: 29px;
+  font-weight: 200;
+  letter-spacing:3px;
+  margin-top: 35px;
+  margin-left: 70px;
+  
+}
+.block>p>a{
+text-decoration: none;
+  color: #b8b8b8;
+  font-size: 20px;
+font-weight: 400;
+  margin-left: 70px;
+  }
+.block>p{
+  margin-top: 50px;
+}
+  
+
 
 @media(max-width: 800px){
- 
-  .first{
-    font-size: 26px;
+  .contact>img{
+    display: none;
+  }
+  .block{
+    width: 570px;
+  }
+  .block>h1{
+    margin-left:0;
+    text-align: center;
+  }
+  
+  .contact{
     
   }
-  .wemake{
-    zoom:1.5;
-    
-  }
-  .a>h2{
-    zoom:1.5;
-  }
-  .a{
-    max-width: 525px;
-  }
-  .but{
-    margin-top: 25px;
-    zoom:1.2;
-  }
+  
   .zm{
     zoom: 1.2;
   }
@@ -341,12 +370,115 @@ img{
   .no{
     display: none;
   }
+   .first{
+    font-size: 26px;
+    
+  }
+  .wemake{
+    zoom:1.5;
+    
+  }
+  .a>h2{
+    zoom:1.5;
+  }
+  .a{
+    max-width: 525px;
+  }
+  .but{
+    margin-top: 25px;
+    zoom:1.2;
+  }
+  .zm{
+    zoom: 1.2;
+  }
+  img[alt="q"]{
+    zoom:1.418;
+    margin-right: 15px;
+  }
+  .volonters{
+    display: none;
+  }
+  .teamlider{
+    margin-left: 15px;
+    
+  }
+  
+  .qq{
+  margin-right: 0px;
+}
+  .e{
+    display: block;
+  }
+  .w{
+    display: none;
+  }
+  .con{
+    width:600px;
+  }
+  .content{
+    width:600px
+  }
+  img[alt="aaa"]{
+    display: none;
+  }
+  .menu>ul>li{
+    width: 146px;
+  }
+  .menu>ul{
+    margin-left: 0px;
+  }
+  .pir{
+      border-bottom: none;
+
+  }
+ 
+  .pirb{
+    margin-top: 40px;
+  }
+  .piz{
+    
+   margin-top: 380px;
+
+    
+  }
+  .tor{
+    margin-left: 0;
+  }
+  img[alt="lvovich"]{
+    margin-top: 10px;
+  }
+  h1.e{
+    margin-top: 50px;
+  }
+  .no{
+    display: none;
+  }
   .pirb{
     margin-bottom: 60px;
   }
+  .first{
+    zoom:1.5;
+    max-width:405px;
+  }
+  .block>p>a{
+    zoom:1.1;
+   margin-left: 30px;
+  }
+  
 }
 
 @media (max-width: 500px){
+  img[alt="q"]{
+        margin-right: 19px;
+  }
+  body{
+    zoom: 0.5;
+  }
+  h1{
+   zoom:1.2;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
   body{
     zoom: 0.5;
   }
@@ -398,6 +530,5 @@ img{
     text-align: center;
     margin-left: -120px;
   }
-  
   
 }
